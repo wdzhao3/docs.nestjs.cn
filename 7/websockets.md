@@ -34,7 +34,7 @@ $ npm i --save-dev @types/socket.io
 ```typescript
 @WebSocketGateway(81, { transports: ['websocket'] })
 ```
-
+ 
 现在，网关现在正在监听，但我们目前尚未订阅收到的消息。让我们创建一个处理程序，它将订阅`events`消息并使用完全相同的数据响应用户。
 
 >events.gateway.ts
